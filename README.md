@@ -1,0 +1,2 @@
+# stifoo
+Sticky Footer
