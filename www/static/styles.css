@@ -73,6 +73,15 @@ iframe {
     height: 900px;
 }
 
+.style_code {
+    height: 200px;
+}
+
+.style_html {
+    height: 390px;
+}
+
+
 li {
     font-size: 200%;
     margin-top: 20px;
@@ -82,3 +91,4 @@ li {
     font-size: 300%;
     margin-bottom: 60px;
 }
+

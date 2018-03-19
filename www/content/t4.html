@@ -13,7 +13,7 @@
 <header>
         <div class="row">
             <div class="col-md-6 thema">
-                <h1>Footer läuft aus dem Bild</h1>
+                <h1>Footer positioniert sich falsch</h1>
             </div>
             <div class="col-md-6 ich">
                 <p>Sticky Footer, Marco Mettke </p>
@@ -28,25 +28,11 @@
         <div class ="row ">
             <div class="col-md-1">        
             </div>
-            <div class="col-md-10 main">
-                    <iframe height="600" width="1300" seamless srcdoc='
+            <div class="col-md-6 main">
+                    <iframe height="600" width="800" seamless srcdoc='
                     <html>
                         <head>
-                            <style>
-                                    html, body {
-                                        height: 100%;
-                                        margin: 0;
-                                      }
-                                      .content {
-                                        padding: 20px;
-                                        min-height: 100%;
-                                        margin: 0 auto -50px;
-                                      }
-                                      .footer,
-                                      .push {
-                                        height: 50px;
-                                      }
-                                      
+                            <style>                                      
                                       .footer {
                                         background-color: red ;
                                         text-align: center;
@@ -59,7 +45,7 @@
                         <body>
                 
                             <div class="content">
-                                <h1>Sticky Footer with Negative Margin 1</h1>
+                                <h1>Sticky Footer</h1>
                                 <p><button id="add">Add Content</button></p>
                                 <div class="push"></div>
                             </div>
@@ -79,7 +65,13 @@
                     </html>'>
                 </iframe>   
             </div>
-            <div class="col-md-1">                    
+            <div class="col-md-5">
+                    <figure>
+                            <img class="style_code" src="../assets/fly.png" alt="position fail" />
+                    </figure>       
+                    <figure>
+                            <img class="style_html" src="../assets/html.png" alt="html" />
+                    </figure>               
             </div>
         </div>            
         
@@ -88,10 +80,10 @@
     <footer>
             <div class ="row foot">
                 <div class="col-md-3">
-                    <a href="/t3" class="btn btn-outline-secondary back" role="button" aria-pressed="true">Zurück</a>
+                    <a href="../content/t3" class="btn btn-outline-secondary back" role="button" aria-pressed="true">Zurück</a>
                 </div>
                 <div class="col-md-6">
-                    <a href="/t4" class="btn btn-outline-secondary btn-block" role="button" aria-pressed="true">Weiter</a>
+                    <a href="../content/t5" class="btn btn-outline-secondary btn-block" role="button" aria-pressed="true">Weiter</a>
                 </div>
                 <div class="col-md-3">
             </div>  
