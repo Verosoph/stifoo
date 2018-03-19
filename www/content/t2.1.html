@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lea</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/styles.css">       <!-- include a css file -->
+    <link rel="stylesheet" href="../static/bootstrap.min.css"></script>     <!-- include bootstrap css-->
+    <script src="../static/jquery-3.2.1.min.js"></script> <!-- include jquery-3-->
+    <script src="../static/script.js"></script> <!-- include own js-->
+    
+</head>    
+<header>
+        <div class="row">
+            <div class="col-md-6 thema">
+                <h3>was ist etz thema</h3>
+            </div>
+            <div class="col-md-6 ich">
+                <p>Sticky Footer, Marco Mettke <span class="date">hier</span></p>
+            </div>    
+        </div>
+    </header>
+    <main>    
+        <div class ="row head">
+            <div class="col-md-12">
+            </div>
+        </div>
+        <div class ="row ">
+            <div class="col-md-3">        
+            </div>
+            <div class="col-md-6 main">
+                    <iframe height="500" width="560" seamless srcdoc='
+                        <html>
+                            <head>
+                                <style>
+                                        html {
+                                            height: 100%;
+                                          }
+                                          
+                                          body {
+                                            height: 100%;
+                                            display: grid;
+                                            grid-template-rows: auto 1fr auto;
+                                            overflow-y: hidden;  
+                                          }
+                                          
+                                          main { 
+                                            overflow-y: auto; 
+                                          } 
+                                          
+                                          footer{
+                                            height: 50px;
+                                            background-color: lightgreen;
+                                          }
+                                          
+                                          header{
+                                            background-color: lightpink;
+                                          }
+                                </style>
+                            </head>
+                            
+                            <body>
+                                    <header>head</header>
+                                    <main>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                                        <h1>main</h1></br>
+                        
+                                    </main>
+                                    <footer>footer</footer>
+                            
+                            </body>
+                        </html>'>
+                    </iframe>   
+            </div>
+            <div class="col-md-3">                    
+            </div>
+        </div>            
+        
+    </main>
+    <footer>
+            <div class ="row foot">
+                <div class="col-md-3">
+                    <a href="/t1_1" class="btn btn-outline-secondary back" role="button" aria-pressed="true">Zurück</a>
+                </div>
+                <div class="col-md-6">
+                    <a href="/t3" class="btn btn-outline-secondary btn-block" role="button" aria-pressed="true">Weiter</a>
+                </div>
+                <div class="col-md-3">
+            </div>  
+        </footer>
+    </body>
+    </html>

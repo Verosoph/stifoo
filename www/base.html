@@ -1,0 +1,26 @@
+
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lea</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'styles.css' %}" type="text/css" />
+        <script src="{% static 'jquery-3.2.1.min.js' %}"></script>
+        <script src="{% static 'jquery.cookie.js' %}"></script>   <!--  if you want to use POST instead of GET Django wants to have a csrf-Token to prevent CROSS-SIDE-SCRIPTING-->
+
+		<link rel="stylesheet" href="{% static 'bootstrap.min.css' %}"> 
+        <script src="{% static 'script.js' %}"></script>        <!-- This is how to include a static file -->
+        
+    </head>    
+    <body>
+
+        {%block content%}
+        {%endblock%}
+    </body>
+</html>
+
+
+
