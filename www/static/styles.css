@@ -63,8 +63,14 @@ iframe {
     text-align: right;
 }
 
+/* pictures  */
+
 #layout {
     height: 600px;
+}
+
+#problem {
+    height: 900px;
 }
 
 li {
