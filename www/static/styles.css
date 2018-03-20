@@ -30,8 +30,11 @@ main {
     overflow-y: auto; 
     overflow-x: hidden; 
     background-color: whitesmoke;
-
 } 
+
+.main_end {
+    background-color:white;    
+}
     
   
 footer{
@@ -81,6 +84,19 @@ iframe {
     height: 390px;
 }
 
+.style_other {
+    height: 550px;
+}
+
+#smily {
+    margin-left: 100px
+}
+
+#jsfiddle {
+    height: 500px;
+    margin-top: 50px;
+}
+
 
 li {
     font-size: 200%;
@@ -92,3 +108,22 @@ li {
     margin-bottom: 60px;
 }
 
+.name {
+    font-size: 150%;
+}
+
+.welcome {
+    margin-top: 100px;
+}
+
+.downloadcss{
+    margin-left: 100px;
+}
+
+.downloadhtml{
+    margin-left: 85px;
+}
+
+.end {
+    font-size: 300%;
+}

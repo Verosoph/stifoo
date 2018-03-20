@@ -1,0 +1,18 @@
+html, body {
+
+}
+
+.content {
+
+}
+
+.footer,.push {
+    height: 50px; 
+}                        
+
+.footer {
+background-color: red ;
+text-align: center;
+color: whitesmoke;
+    
+}
